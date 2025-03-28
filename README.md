@@ -1,26 +1,35 @@
 # Purple-Team
 
 ## Objective
-[Brief Objective - Remove this afterwards]
 
-The Detection Lab project aimed to establish a controlled environment for simulating and detecting cyber attacks. The primary focus was to ingest and analyze logs within a Security Information and Event Management (SIEM) system, generating test telemetry to mimic real-world attack scenarios. This hands-on experience was designed to deepen understanding of network security, attack patterns, and defensive strategies.
+Set up a virtual box to show how vulnerabilities can be exploited using a combination of command injection and brute force.  Also decided to take it a step further and showed how I could remediate the issues.
 
 ### Skills Learned
 [Bullet Points - Remove this afterwards]
 
-- Advanced understanding of SIEM concepts and practical application.
-- Proficiency in analyzing and interpreting network logs.
-- Ability to generate and recognize attack signatures and patterns.
-- Enhanced knowledge of network protocols and security vulnerabilities.
-- Development of critical thinking and problem-solving skills in cybersecurity.
+- Vulnerability Assessment
+  Identified and exploited a command injection vulnerability in a web application
+- Network Reconaissance
+  Used Nmap to discover open ports, running services and potential attack vectors
+- Brute-Force Techniques
+  Performed targeted brute-force attacks using Hydra to obtain remote access credentials
+- Remote Access and Post-Exploiteation
+  Gained interactive RDP access to a compramised system and explored further exploitation techniques
+- PowerShell Scripting
+  Created a custom PowerShell script to detect successful RDP logins and alert administraters with email
+- Log Analysis
+  Analyzed Windows Event Logs to track remote login activity(Event ID 4624, Logon Type 10)
+- Input Validation & Web App Security
+  
 
 ### Tools Used
 [Bullet Points - Remove this afterwards]
 
-- Security Information and Event Management (SIEM) system for log ingestion and analysis.
-- Network analysis tools (such as Wireshark) for capturing and examining network traffic.
-- Telemetry generation tools to create realistic network traffic and attack scenarios.
-
+- Hydra
+- xfreerdp3 - RDP tool for linux to connect to Windows
+- Nmap
+- Powershell
+- 
 ## Steps
 drag & drop screenshots here or use imgur and reference them using imgsrc
 
